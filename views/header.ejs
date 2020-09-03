@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,minimal-ui" />
+<title>Let's Vote</title>
+<link rel="stylesheet" type="text/css" href="<%= cdnUrl %>/dist/vendor/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="<%= cdnUrl %>/dist/loading.css" />
+<script src="<%= cdnUrl %>/dist/vendor/jquery.min.js"></script>
+<script src="<%= cdnUrl %>/dist/vendor/bootstrap.min.js"></script>
+
+<style>
+
+a:hover{
+	text-decoration: none;
+}
+.transition-wrapper{
+	position: relative;
+	text-align: center;
+}
+
+.transition-wrapper .homepage,
+.transition-wrapper .listpage,
+.transition-wrapper .newpage,
+.transition-wrapper .detailpage{
+	width: 100%;
+  position: absolute;
+}
+.transition-wrapper .listpage,
+.transition-wrapper .newpage,
+.transition-wrapper .detailpage{
+	margin: 2%;
+  width: 96%;
+}
+.navbar{
+	border-radius: 0px;
+}
+.panel{
+	border-radius: 3px;
+}
+button{
+	border-radius: 3px!important;
+}
+
+</style>
+</head>
+
+<body>
+<script type="text/javascript">
+
+	var userInfo = {
+		name: '',
+		avatar: ''
+	}
+
+</script>
