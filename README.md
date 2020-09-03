@@ -14,7 +14,7 @@ A voting APP.
 
 + Clone this project
 	```
-	git clone https://github.com/MingweiChen/voting.git
+	git clone https://github.com/xinyawang/BBSVote.git
 	cd voting
 	```
 + Install local dependencies
